@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://mediagal.prts643.proto-server.com/images/hello.jpg");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://免费接口.seetv.eu.org/");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
