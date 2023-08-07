@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://免费接口.seetv.eu.org/");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://xn--a-206cq03b.seetv.eu.org/");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
